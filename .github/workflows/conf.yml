@@ -2,10 +2,8 @@
 # Configuration file, to deploy the BootCamp2020 projects on Surge
 
 name: "Deployment of bootcamp projects on Surge.sh."
-on:
- push:
-  branches:
-   - main
+
+on: [push]
 
 jobs:
   build:
